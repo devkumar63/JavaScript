@@ -1,0 +1,26 @@
+//  let value=50
+//  let negValue=-value
+// console.log(negValue);    /*out is -50*/
+// let str1= (3+8 )
+// let str2=(3+2)
+// let str3=str1+str2     
+// console.log(str3);      /*output is =16*/ 
+// console.log("3"+4+4);   /*output is = 344*/
+// console.log(4+5+"5");   /*output is =95*/ 
+
+// let num=37
+// num++;
+// ++num; 
+// console.log(num);
+// console.log(num);
+
+
+
+
+let value = "dev"
+let valuee = " cahahal"
+let sumvalue= value + valuee
+console.log(sumvalue);
+
+
+//   in the  comparision (operator)  the answere is not predectible 

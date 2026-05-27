@@ -50,4 +50,4 @@
     //    console.log(c);  ///to yha to print hoga baad wala hoga matlab c=10
     //                         // to ye thode scope ke problem h var m
        
-    // nested loop ke aander child function jo h vo parent ke variblr ko acees kr skte h
+    // nested loop ke aander child function jo h vo parent ke variblr ko acees kr sk   te h

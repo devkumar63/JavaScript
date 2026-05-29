@@ -1,4 +1,9 @@
-// const accountId=143                      /*const is a varible  /*we can not change*/
+              // JAVA SCRIPT  IS A SINGLE THREADED LANGUAGE 
+               
+               
+               
+               
+               // const accountId=143                      /*const is a varible  /*we can not change*/
 // let accountName="null"                  /*its right method*/
 // var accountEmail="@devkumargmail.com"  /*we can not use because is ccan create problem scope problem*/
 // var accountPassword="246701"          /*we can not use because is ccan create problem scope problem*/

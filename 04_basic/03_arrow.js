@@ -1,17 +1,18 @@
-//  const user =
-//  {
-//     name:"dev",
-//     age:20,
-//     location:"bijnor",
-//     hobby:"backchody",
-//     welcome:function(){
+ const user =
+ {
+    name:"dev",
+    age:20,
+    location:"bijnor",
+    hobby:"backchody",
+    welcome:function(){
 
-//         console.log(`${this.name} now your program can easyly run so  plz enjoy your day`);
-//             console.log(this);
-//                         //there use this.(eska use current context ke lea hota h )
-//     }                           //(jaise name ,age,location)
+        console.log(`${this.name},now your program can easyly run so  plz enjoy your day`);
+       //     console.log(this );
+                        //there use this.(eska use current context ke lea hota h )
+    } 
+                          }                          //(jaise name ,age,location)
 //  }
-//              user.welcome()
+             user.welcome()
 //              user.name="sunjay"
 //              user.welcome()
 
@@ -78,10 +79,10 @@
                      
                       // object ko return kauise krege==== object ko ()ke ander rap krdo 
 
-                      const value=(num1,num2)=> ( {username:"dev"})
+              //         const value=(num1,num2)=> ( {username:"dev"})
                          
                       
-                        console.log(value (4,6));
+              //           console.log(value (4,6));
                         
 
                 
@@ -90,5 +91,5 @@
 
 
 
-                 console.log(value( "dev" ,50));
+              //    console.log(value( "dev" ,50));
            

@@ -107,53 +107,121 @@
     //     console.log(" bahar jq bhosdike nekal ja yha se");
         
     // }
- 
+
+
+    //  ++++++++++++++++++++++++++++ ??  (NULLISH COALESCING  OPERATER ) +++++++++++++++++++
+
+
+    let score ;
+    score=10 ?? 20 
+     console.log(score);  // output 10
+
+
+     let value ;
+     value = null ?? 20
+
+     console.log(value);  // output is 20
+
+     let number;
+     number = undefined ?? 29 
+     console.log(number);     // output is 29
+
+
+     let  data; 
+     data = null ?? 77 ?? 55 
+     console.log(data);   // output is 77
+
+     let info;
+     info = null ?? 55 ?? 77 
+     console.log(info);    // output is 55
+
+
+
+        //++++++++++++++++++++++++++++++   Ternary Operater    ++++++++++
+
+
+
+
+        condition ? true : false
+
+
+        const teavalue=100
+        teavalue<=130 ? console.log("  then 130"):console.log(" less then 130 ");
+        
+        
+     
+     
+     
+     
     //+++++++++++++++++++++++++++++++ switch case ++++++++++++++++++++++++
      
-        const day=6
-        switch (day) {
-            case 1:
-                console.log("sunday");
+        // const day=78
+        // switch (day) {
+        //     case 1:
+        //         console.log("sunday");
                 
                 
-                break;
-            case 2:
-                console.log("monday");
+        //         break;
+        //     case 2:
+        //         console.log("monday");
                 
                 
-                break;
-            case 3:
-                console.log("tuesday");
+        //         break;
+        //     case 3:
+        //         console.log("tuesday");
                 
                 
-                break;
-            case 4:
-                console.log("wenesday");
+        //         break;
+        //     case 4:
+        //         console.log("wenesday");
                 
                 
-                break;
-            case 5:
-                console.log("thueasday");
+        //         break;
+        //     case 5:
+        //         console.log("thueasday");
                 
                 
-                break;
-            case 6:
-                console.log("friday");
+        //         break;
+        //     case 6:
+        //         console.log("friday");
                 
                 
-                break;
-            case 7:
-                console.log("saturday");
+        //         break;
+        //     case 7:
+        //         console.log("saturday");
                 
                 
-                break;
+        //         break;
         
-            default:
-                    console.log(" out of day");
+        //     default:
+        //             console.log(" out of day");
                     
 
 
-                break;
+        //         break;
+        // }
+
+        const password=  "@neetdev#"   /// direct hum varibel ko bhi condition m de skte h 
+        if (password) {
+            console.log(" acces your id ");
+            
+            
         }
-   
+        else{
+            console.log( "not acccese");
+            
+        }
+        
+        
+        ////++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+            //      falsy value
+
+
+            //    false , 0 , -0 , BigInt 0n , NaN , null , undefined
+
+           //   turthy valuse 
+                     
+           //    "0" , 'false' , " " , [] , {} , finction (){}     ( ye hota h empty function )
+
     
